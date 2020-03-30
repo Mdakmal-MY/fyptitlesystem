@@ -1,0 +1,749 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100%;
+}
+
+.container
+{
+        padding:45px 30px;
+}
+/*Searbox*/
+.boxs
+{
+    
+        border-radius: 15px 15px 15px 15px;
+        display:flex;
+        background: white;
+        font-family: Cailbri;
+        margin: 0 auto;
+        width: 50%;
+        height:60%;
+        flex-wrap: wrap;
+}
+
+.boxs input[type="text"]
+{
+        border-radius: 15px 15px 0px 0px;
+        width: 100%;
+        padding: 16px;
+        font-size: 14px;
+}
+
+.boxs table
+{
+        border-collapse: collapse;
+        font-family:Calibri;
+        font-size: 18px;
+        width: 100%;
+}
+
+
+.boxs th
+{
+        background-color: #e40c2b;
+        padding:6px;
+        color:white; 
+}
+
+.boxs td
+{
+        text-align: center;
+        background-color: #f1f1ef;
+        color:black;         
+}
+
+#statusid
+{
+        Color:green;
+}
+
+#lastrow
+{
+        border-radius: 0px 0px 15px 15px;
+}
+
+
+.menu
+{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.menu li
+{
+	float: left;
+}
+
+#logo
+{
+	font-family: Helvetica;
+	font-size: 1.5em;
+	color: #f7f4e9;
+	border-bottom: 6px solid #fb8122;
+}
+
+.menu li a
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+a.menu-line
+{
+	margin-right:10px;	
+	font-family: Calibri;	
+	border: 1px Solid white;
+	background-color: #292930;
+}
+
+.menu-line:hover
+{
+	background-color:#fcc133;
+	color:black;
+	border: none;
+}
+
+li.menu-option
+{
+	float: right;
+}
+
+.footer
+{
+	font-family:calibri;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	background-color:rgba( 55, 58, 54 ,0.7);
+	color:white;
+	padding:8px;
+}
+
+/*Login customization*/
+.logincontainer
+{
+	display: none;
+	z-index: 1;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background-color: rgba( 0, 0, 0 ,0.8);
+	overflow:auto;
+}
+
+.loginForm
+{
+	background-color: white;
+	margin: 10% auto;
+	width:70%;
+	box-shadow: 0px, 5px, 8px, 0px;
+}
+
+.loginForm table
+{
+	padding: 5%;
+	margin: 0 auto;
+}
+
+.loginForm td
+{
+	text-align: center;
+	padding: 4px 8px;
+	font-family: calibri;
+	font-size: 16px;
+}
+
+.loginForm input[type="text"], input[type="password"]
+{
+	padding: 4px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.loginBtn
+{
+	border: none;
+	padding: 12px 16px;
+	font-family: calibri;
+	font-size:13px;
+	background-color: #292930;
+        color: white;
+}
+
+.loginBtn:hover
+{
+	background-color: #e12b38;
+	cursor:pointer;
+}
+
+.closeLogin
+{
+	color: #ccc;
+	float:right;
+	font-size:30px;
+	padding-right:8px;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.closeLogin:hover
+{
+	color: #000;
+	cursor:pointer;
+}
+/*Register user*/
+
+.registerContainer
+{
+        margin-top:4%;
+        width: 50%;
+        margin:0 auto;
+}
+
+.registerContainer h2
+{
+        margin-top:5%;
+        background-color: black;
+        color:white;
+        font-family: calibri;
+        padding:10px;
+}
+
+
+.registerContainer form
+{
+        background-color: white;
+        padding: 14px 38px;
+}
+
+.registerContainer input[type="text"], input[type="password"], input[type="email"]
+{
+	padding: 4px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.registerContainer input[type="radio"]
+{
+	margin: 6px 8px;
+}
+
+.registerContainer table td
+{
+        text-align: left;
+}
+
+.registerContainer td
+{
+        padding-left: 6px;
+	font-family: calibri;
+	font-size: 16px;      
+}
+
+.regBtn
+{
+        margin: 12px 16px;
+        padding:8px 16px;
+        border:none;
+        background-color: #e12b38;
+        color:white;
+        cursor:pointer;    
+}
+
+.regBtn:hover
+{
+        background-color: #bb000d;
+}
+
+.resetBtn
+{
+        padding:8px 16px;
+        border:1px solid #7da2a9;
+        background-color: #f7f7f7;
+        color:black;
+        cursor:pointer;         
+}
+
+.resetBtn:hover
+{
+        background-color: #7da2a9;
+        color:black;        
+}
+
+/*Side bar custom*/
+.sidebar
+{
+        font-family: calibri;
+        margin: 0;
+        padding: 0;
+        width: 240px;
+        position: fixed;
+        height:100%;
+        background-color: #1f3044;
+        overflow: auto;
+}
+
+.sidebar a
+{
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 16px 10px;
+        font-size: 14px;
+}
+
+.sidebar a:hover
+{
+        background-color: #fb9039;
+}
+
+.sidebar-content
+{
+        color:black;
+        font-weight: bold;
+        background-image: url("../images/sidebar1.jpg");
+        background-repeat: no-repeat;
+        background-size:100%;
+        height:130px;
+}
+
+.sidebar-content p
+{
+        border-radius: 20px 20px 20px 20px;
+        position:absolute;
+        left:55px;
+        top:50px;
+        background-color: white;
+        padding: 4px;
+        border: 1px solid #fcc133;
+        width: 50%;
+        font-family: Comic Sans MS;
+}
+
+.icons
+{
+        vertical-align: middle;
+        padding: 0px 8px;
+        height: 20px;
+}
+
+/*student sidebar*/
+
+#sidebarstudent a:hover
+{
+        background-color: #3eb650;
+}
+
+#sidebarstudent-content
+{
+        background-image: url("../images/sidebar2.jpg");
+}
+
+
+#sidebarstudent-content p
+{
+        border: 1px solid #3eb650;
+}
+/*student title*/
+#content-home-main1
+{
+        background-color: #3eb650;
+}
+
+
+/*lecturer customization*/
+#sidebarLecturer a:hover
+{
+        background-color: #e12b38;
+}
+
+#sidebarlecturer-content
+{
+        background-image: url("../images/sidebar3.jpg");
+}
+
+
+#sidebarlecturer-content p
+{
+        border: 1px solid #e12b38;
+}
+
+#content-lecturer-home
+{
+    
+}
+
+#content-lecturer-main
+{
+        background-color: #e12b38;
+}
+
+#confirmbooking
+{
+        margin-top:80px;
+}
+/*admin Home cusotmization*/
+.content-home
+{
+        font-family: calibri;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: black;
+        margin: 0;
+        padding: 0;
+        width: 82.5%;
+        height:100%;
+        position:absolute;
+        left: 240px;
+}
+
+#tajuk
+{
+        font-size: 25px;
+        margin-left:18%;
+        padding: 10px;
+        font-weight: bold;
+        color:white;
+}
+
+
+.content-home table
+{ 
+        background-color: white;
+        border-collapse: collapse;
+        width:60%;
+        border: 0.5px solid black;
+        margin: 0 auto;
+}
+
+.content-home th, td
+{
+        padding:6px;
+        text-align:center;
+
+}
+.content-home th{
+        background-color:#1d2228;
+        color: white;
+}
+
+.content-home td{
+        background-color: white;
+}
+.content-home-main
+{
+        background-color: #fb8122;
+        color: #1d2228;
+        padding: 12px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 2%;
+}
+
+#reject
+{
+        padding:8px 16px;
+        border:none;
+        background-color: #e12b38;
+        color:white;
+        cursor:pointer;
+}
+
+#reject:hover
+{
+        background-color: #bb000d;
+}
+
+#approve
+{
+        padding:8px 16px;
+        border:none;
+        background-color: #3eb650;
+        color:white;
+        cursor:pointer;
+}
+
+#approve:hover
+{
+        background-color: #07981d;
+}
+
+#deleteUser
+{
+        border: none;
+        background-color: #1d2228;
+        cursor: pointer;
+        padding: 6px 0px;
+}
+
+/*approve customization*/
+.approvecontainer
+{
+	z-index: 1;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background-color: rgba( 0, 0, 0 ,0.8);
+	overflow:auto;
+}
+
+.approveForm
+{
+	background-color: white;
+	margin: 10% auto;
+	width:70%;
+	box-shadow: 0px, 5px, 8px, 0px;
+}
+
+.approveForm table
+{
+	padding: 5%;
+	margin: 0 auto;
+}
+
+.approveForm td
+{
+	text-align: left;
+	padding: 4px 8px;
+	font-family: calibri;
+	font-size: 16px;
+}
+
+.approveForm input[type="text"], input[type="password"]
+{
+	padding: 4px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.approveForm select
+{
+    padding: 4px 6px;
+}
+
+.approveBtn
+{
+        margin: 0 auto;
+	border: none;
+	padding: 12px 16px;
+	font-family: calibri;
+	font-size:13px;
+        background-color: #3eb650;
+        color: white;
+}
+
+.approveBtn:hover
+{
+        background-color: #07981d;
+	cursor:pointer;
+}
+
+.closeApprove
+{
+	color: #ccc;
+	float:right;
+	font-size:30px;
+	padding-right:8px;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.closeApprove a 
+{
+	text-decoration:none;
+}
+
+.closeApprove:hover
+{
+	color: #000;
+	cursor:pointer;
+}
+
+/*Manage FYP*/
+.content-manage
+{
+        font-family: calibri;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: black;
+        margin: 0;
+        padding: 0;
+        width: 82.5%;
+        height:100%;
+        position:absolute;
+        left: 240px;
+}
+
+#tajukmanage
+{
+        font-size: 25px;
+        margin-left:5%;
+        padding: 10px;
+        font-weight: bold;
+        color:white;
+}
+
+
+.content-manage table
+{ 
+        background-color: white;
+        border-collapse: collapse;
+        width:85%;
+        border: 0.5px solid black;
+        margin: 0 auto;
+}
+
+.content-manage th, td
+{
+        padding:6px;
+        text-align:center;
+
+}
+.content-manage th{
+        background-color:#1d2228;
+        color: white;
+}
+
+.content-manage td{
+        background-color: white;
+}
+.content-manage-main
+{
+        background-color: #fb8122;
+        color: #1d2228;
+        padding: 12px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 2%;
+}
+
+#update
+{
+        padding:8px 16px;
+        border:none;
+        background-color:#fcc133;
+        color:white;
+        cursor:pointer;
+}
+
+#update:hover
+{
+        background-color: #da9a00;
+}
+
+/*admin update Account*/
+.content-account
+{
+        font-family: calibri;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: black;
+        margin: 0;
+        padding: 0;
+        width: 82.5%;
+        height:100%;
+        position:absolute;
+        left: 240px;
+}
+
+#tajukaccount
+{
+        font-size: 25px;
+        margin-left:15%;
+        padding: 10px;
+        font-weight: bold;
+        color:white;
+}
+
+
+.content-account table
+{ 
+        background-color: white;
+        border-collapse: collapse;
+        width:70%;
+        border: 0.5px solid black;
+        margin: 0 auto;
+}
+
+.content-account th, td
+{
+        padding:6px;
+        text-align:left;
+
+}
+.content-account th{
+        background-color:#1d2228;
+        color: white;
+}
+
+.content-account td{
+        background-color: white;
+        padding:8px 26px;
+}
+.content-account-main
+{
+        background-color: #fb8122;
+        color: #1d2228;
+        padding: 12px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 2%;
+}
+
+.updateaccForm input[type="text"], input[type="password"], input[type="email"]
+{
+	padding: 4px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.updateaccForm input[type="radio"]
+{
+	margin: 6px 8px;
+}
+
+.bookForm input[type="text"]
+{
+	padding: 4px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+/*book form*/
+#proposeTable td
+{
+        padding: 16px 22px;
+}
+
+/*student Account*/
+#studentAccountmain
+{
+        background-color: #3eb650;
+}
+
+#updatestudent
+{
+        background-color: #3eb650;
+        padding:8px 16px;
+        border:none;
+        color:white;
+        cursor:pointer;
+}
+
+#updatestudent:hover
+{
+        background-color: #047815;
+}
